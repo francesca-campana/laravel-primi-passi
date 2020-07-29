@@ -10946,7 +10946,26 @@ header .logo {
   width: 200px;
 }
 
+header .nav-item {
+  padding-left: 20px;
+}
+
+header .nav-item .candidati {
+  background-color: #61ce4e;
+}
+
+header li .candidati {
+  background-color: #61ce4e;
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 8px;
+}
+
 .jumbo {
+  padding-top: 200px;
   background-color: white;
   color: #1b3c59;
 }
@@ -10960,18 +10979,48 @@ header .logo {
   display: block;
 }
 
-.jumbo .lead {
+.jumbo .teaser .lead {
   margin-top: 10px;
 }
 
-.jumbo .lista {
+.jumbo .teaser .lista {
   padding-left: 20px;
   font-size: 18px;
   font-weight: 100;
 }
 
+.jumbo .pc-black {
+  width: 500px;
+}
+
 main .privacy {
   color: #1b3c59;
   margin-top: 100px;
+}
+
+main .privacy h2 {
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+main .privacy p {
+  padding-bottom: 20px;
+}
+
+main .privacy h3 {
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+main .privacy .lista {
+  padding-left: 20px;
+}
+
+footer {
+  padding: 70px 0 30px;
+  background-color: #1b3c59;
+  height: 300px;
 }
 

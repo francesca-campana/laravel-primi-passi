@@ -1,20 +1,27 @@
 .jumbo {
+  padding-top: 200px;
   background-color: white;
   color: $primary_color;
-  .teaser h1 {
-    font-weight: 300;
-  }
-  .teaser h1 strong {
-    font-weight: 400;
-    display: block;
+  .teaser {
+    h1 {
+      font-weight: 300;
+    }
+    h1 strong {
+      font-weight: 400;
+      display: block;
 
+    }
+    & .lead {
+      margin-top: 10px;
+    }
+    & .lista {
+      padding-left: 20px;
+      font-size: 18px;
+      font-weight: 100;
+    }
   }
-  & .lead {
-    margin-top: 10px;
-  }
-  & .lista {
-    padding-left: 20px;
-    font-size: 18px;
-    font-weight: 100;
+
+  .pc-black {
+    width: 500px;
   }
 }

@@ -1,5 +1,21 @@
 main .privacy {
   color: $primary_color;
   margin-top: 100px;
+  h2 {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 40px;
+  }
+  p {
+    padding-bottom: 20px;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  .lista {
+    padding-left: 20px;
+  }
 
 }

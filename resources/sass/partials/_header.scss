@@ -1,5 +1,23 @@
 header {
-  .logo {
-    width: 200px;
-  }
+    .logo {
+      width: 200px;
+    }
+    .nav-item {
+      padding-left: 20px;
+      .candidati {
+        background-color: $secondary_color;
+      }
+
+    }
+    li .candidati {
+      background-color: $secondary_color;
+      border: none;
+      color: white;
+      padding: 8px 25px;
+      font-size: 16px;
+      line-height: 1.5;
+      border-radius: 8px;
+    }
+
+
 }
