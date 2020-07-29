@@ -10928,3 +10928,50 @@ a.text-dark:focus {
   }
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+header .logo {
+  width: 200px;
+}
+
+.jumbo {
+  background-color: white;
+  color: #1b3c59;
+}
+
+.jumbo .teaser h1 {
+  font-weight: 300;
+}
+
+.jumbo .teaser h1 strong {
+  font-weight: 400;
+  display: block;
+}
+
+.jumbo .lead {
+  margin-top: 10px;
+}
+
+.jumbo .lista {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+main .privacy {
+  color: #1b3c59;
+  margin-top: 100px;
+}
+
