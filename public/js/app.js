@@ -37282,6 +37282,16 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
+var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+
+$(document).ready(function () {
+  //Quando clicco sull'elemento 'question' mi viene mostrata la 'answer' corrispettiva
+  $('.question').click(function () {
+    $(this).children('.answer').toggle();
+    console.log(this);
+  });
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

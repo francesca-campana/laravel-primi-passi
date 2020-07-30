@@ -4,8 +4,7 @@
 @extends('layouts.app')
 
 @section('content')
-  <main>
-    <div class="jumbotron jumbo">
+  <div class="jumbotron jumbo">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-lg-6">
@@ -30,7 +29,6 @@
       </div>
 
     </div>
-    </div>
-  </main>
+  </div>
 
 @endsection

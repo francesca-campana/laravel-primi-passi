@@ -10942,6 +10942,10 @@ img {
   width: 100%;
 }
 
+.active {
+  display: block;
+}
+
 header .logo {
   width: 200px;
 }
@@ -10964,8 +10968,14 @@ header li .candidati {
   border-radius: 8px;
 }
 
+main {
+  padding-top: 100px;
+  background-color: white;
+  color: #1b3c59;
+}
+
 .jumbo {
-  padding-top: 200px;
+  padding-top: 100px;
   background-color: white;
   color: #1b3c59;
 }
@@ -10993,29 +11003,73 @@ header li .candidati {
   width: 500px;
 }
 
-main .privacy {
+section .privacy {
   color: #1b3c59;
-  margin-top: 100px;
 }
 
-main .privacy h2 {
+section .privacy h2 {
   font-size: 32px;
   font-weight: 500;
   padding-bottom: 40px;
 }
 
-main .privacy p {
+section .privacy p {
   padding-bottom: 20px;
 }
 
-main .privacy h3 {
+section .privacy h3 {
   font-weight: 400;
   font-size: 20px;
   padding-top: 30px;
 }
 
-main .privacy .lista {
+section .privacy .lista {
   padding-left: 20px;
+}
+
+section.jumbo-faq {
+  padding: 0 65px;
+}
+
+section.jumbo-faq h2 {
+  padding-left: 0;
+}
+
+section.list-faq .before {
+  background-color: #e8ebf1;
+  padding: 40px 80px;
+}
+
+section.list-faq .before .question h4 {
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+section.list-faq .before .question i {
+  float: right;
+}
+
+section.list-faq .before .question p {
+  display: none;
+}
+
+section.list-faq .after {
+  padding: 40px 80px;
+  background-color: #1b3c59;
+  color: white;
+}
+
+section.list-faq .after .question h4 {
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+section.list-faq .after .question i {
+  float: right;
+}
+
+section.list-faq .after .question p {
+  display: none;
 }
 
 footer {

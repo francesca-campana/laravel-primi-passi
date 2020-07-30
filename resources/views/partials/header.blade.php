@@ -10,13 +10,13 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav align-items-center">
         <li class="nav-item active">
-          <a class="nav-link" href="{{ route('home') }}">HOME<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="{{ route('home') }}">HOME</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ route('policy') }}">PRIVACY-POLICY</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CORSO</a>
+          <a class="nav-link" href="{{ route('faq') }}">FAQ</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">DOPO IL CORSO</a>
